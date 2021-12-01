@@ -12,15 +12,16 @@ The notebooks have been structured in such a way as to be illustrative of the me
 
 The new dataset is created in such a way to resemble known features of the original dataset, such as the distribution of patient age, gender, number of patients admitted during a year, average hospital duration, patients with annotated (known) fall injuries or not, etc.
 
-__Table of Contents__
+---
+
+## Table of Contents
   - [Project Structure](#project-structure)
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Usage](#usage)
-    - [Run Lable Corruption on IMDB](#run-label-corruption-on-imdb)
-  - [Pushing Commits](#pushing-commits)
-    - [Automatic Formating](#automatic-formating)
-  - [Work in Progress](#work-in-progress)
+  - [Extra](#extra)
+    - [Test Lable Corruption on IMDB](#test-if-label-corruption-can-be-identified-from-softmax-values)
+
 
 ## Project Structure
 1. notebooks -  Jupyter notebooks for illustrating most of the metods used and why.
@@ -46,9 +47,7 @@ To run the Swedish BERT model for training:
 1. ```chmod -R 777 scripts```
 2. ```bash scripts/run_command.sh```
 
-
-## Usage
-## Extra: Test if label corruption can be identified from Softmax values.
+### Extra: Test if label corruption can be identified from Softmax values.
 <details>
   <summary>Testing on the IMDB classification dataset.</summary>
 

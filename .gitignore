@@ -1,0 +1,10 @@
+notebooks/.ipynb_checkpoints
+src/.ipynb_checkpoints
+__pycache__
+.devcontainer
+.vscode
+.env
+logs
+wandb
+data/*
+.projectile

@@ -1,0 +1,27 @@
+cython==0.29.23
+jupyterlab==3.0.14
+ipywidgets==7.6.3
+pandas==1.2.4
+seaborn==0.11.1
+tqdm==4.49.0
+sklearn
+dnspython
+# Automatic formating
+tox==3.23.0
+black==20.8b1
+isort==5.8.0
+flake8==3.9.1
+mypy==0.812
+pydocstyle==6.0.0
+# Project specific requirements
+datasets==1.6.0
+transformers==4.5.1
+wandb==0.10.27
+tensorboard==2.5.0
+tensorboardX==2.2
+pytorch-lightning==1.2.8
+py3nvml==0.2.6 # for logging GPU memory usage
+ray==1.2.0
+tabulate==0.8.9
+debugpy # for vscode debugging
+pyodbc==4.0.32

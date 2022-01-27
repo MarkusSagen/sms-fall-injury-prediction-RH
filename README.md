@@ -1,4 +1,4 @@
-MedBERT Project Regio Halland (RH)
+SMS Project Region of Halland (RH)
 ==================================
 
 Repository of code used in the Vinnova funded application for "Svenskt Medicinskt Språkdatalabb". One of the use-cases in the project was identifying previous fall injuries that occured for patients during their hospital visits, from the patient's journal text. The goal of the project was to verify if machine learning models could learn to identify which patients had a fall injury in the past, and (if possible), extend it to predict which patients would be in the risk for suffering from a future fall injury.
